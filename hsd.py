@@ -10,11 +10,11 @@ Original file is located at
 # 1. Installing Dependencies and importing libraries
 """
 
-!pip install tensorflow_text
-!pip install -q tf-models-official==2.11.0
-!pip install tensorflow-addons
+pip install tensorflow_text
+pip install -q tf-models-official==2.11.0
+pip install tensorflow-addons
 
-!pip install pyyaml h5py
+pip install pyyaml h5py
 
 from google.colab import drive
 
